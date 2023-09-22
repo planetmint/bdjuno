@@ -14,6 +14,7 @@ import (
 	"github.com/forbole/bdjuno/v4/types/config"
 
 	"cosmossdk.io/simapp"
+	planetmintapp "github.com/planetmint/planetmint-go/app"
 
 	"github.com/forbole/bdjuno/v4/database"
 	"github.com/forbole/bdjuno/v4/modules"
@@ -56,6 +57,7 @@ func main() {
 func getBasicManagers() []module.BasicManager {
 	return []module.BasicManager{
 		simapp.ModuleBasics,
+		planetmintapp.ModuleBasics,
 	}
 }
 
