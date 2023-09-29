@@ -14,7 +14,7 @@ require (
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.9
 	github.com/pelletier/go-toml v1.9.5
-	github.com/planetmint/planetmint-go v0.2.0
+	github.com/planetmint/planetmint-go v0.3.0
 	github.com/prometheus/client_golang v1.16.0
 	github.com/proullon/ramsql v0.1.2
 	github.com/rs/zerolog v1.30.0
