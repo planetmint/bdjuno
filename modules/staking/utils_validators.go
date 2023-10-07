@@ -223,7 +223,9 @@ func (m *Module) GetValidatorsVotingPowers(height int64, vals *tmctypes.ResultVa
 		for _, blockVal := range vals.Validators {
 			blockValConsAddr := juno.ConvertValidatorAddressToBech32String(blockVal.Address)
 			if blockValConsAddr == consAddr.String() {
-				votingPower = blockVal.VotingPower
+				// Originally `blockVal.VotingPower` is used, which is the voting power returned by tendermint, e.g. 1, 2, etc.
+				// We need the amount of bonded token, e.g. 100000, 200000, etc.
+				votingPower = validator.Tokens.Int64()
 			}
 		}
 
