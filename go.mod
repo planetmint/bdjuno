@@ -14,7 +14,7 @@ require (
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.9
 	github.com/pelletier/go-toml v1.9.5
-	github.com/planetmint/planetmint-go v0.8.0
+	github.com/planetmint/planetmint-go v0.8.5
 	github.com/prometheus/client_golang v1.16.0
 	github.com/proullon/ramsql v0.1.2
 	github.com/rs/zerolog v1.30.0
@@ -230,7 +230,7 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
 	github.com/petermattis/goid v0.0.0-20230317030725-371a4b8eda08 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/planetmint/planetmint-go/lib v0.4.1 // indirect
+	github.com/planetmint/planetmint-go/lib v0.5.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/polyfloyd/go-errorlint v1.4.4 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect

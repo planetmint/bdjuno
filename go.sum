@@ -1602,10 +1602,10 @@ github.com/pkg/profile v1.2.1/go.mod h1:hJw3o1OdXxsrSjjVksARp5W95eeEaEfptyVZyv6J
 github.com/pkg/profile v1.6.0/go.mod h1:qBsxPvzyUincmltOk6iyRVxHYg4adc0OFOv72ZdLa18=
 github.com/pkg/sftp v1.10.1/go.mod h1:lYOWFsE0bwd1+KfKJaKeuokY15vzFx25BLbzYYoAxZI=
 github.com/pkg/sftp v1.13.1/go.mod h1:3HaPG6Dq1ILlpPZRO0HVMrsydcdLt6HRDccSgb87qRg=
-github.com/planetmint/planetmint-go v0.8.0 h1:1PcqpUaScd2WQwEbRLxG66TGIf2o5S4ZJ0fNrgxym9U=
-github.com/planetmint/planetmint-go v0.8.0/go.mod h1:QEyLbA7EWBS0BY1H80F4H4BC6qe3mijjqo4zqpA7YTE=
-github.com/planetmint/planetmint-go/lib v0.4.1 h1:nNg4/prKrSvqsF+DakfvUdMcWU2pK+/ga6/hkkDlkBI=
-github.com/planetmint/planetmint-go/lib v0.4.1/go.mod h1:1k478R9Uko3ccYtbpQE9getSR+j5AucAgaYFgjddq1I=
+github.com/planetmint/planetmint-go v0.8.5 h1:5dWCxMLvSl7OUHNcrzVFk1vKvzYmRJPDovLLPNGeS/A=
+github.com/planetmint/planetmint-go v0.8.5/go.mod h1:pqMobR9pfu9V5yTf9WtZ9KZdMR7C8kdv7fv7RYd/BqM=
+github.com/planetmint/planetmint-go/lib v0.5.0 h1:l8u7pJeQF+vvLxSVFgk45TR2/Qe/N0JpS9gFoTbMdUk=
+github.com/planetmint/planetmint-go/lib v0.5.0/go.mod h1:1k478R9Uko3ccYtbpQE9getSR+j5AucAgaYFgjddq1I=
 github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
