@@ -16,6 +16,10 @@ on:
           - true
           - false
         default: true
+      files:
+        description: "Files"
+        required: true
+        default: "bdjuno"
 
 jobs:
   release:
@@ -23,5 +27,4 @@ jobs:
     with:
       tag: ${{ github.event.inputs.tag }}
       prerelease: ${{ fromJSON(github.event.inputs.prerelease) }}
-      files: |
-        bdjuno
+      files: ${{ github.event.inputs.files }}
